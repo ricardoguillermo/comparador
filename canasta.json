@@ -22,5 +22,11 @@
     "precio_uy": 40,
     "precio_br": 3.9,
     "cantidad": 1
+  },
+  {
+    "producto": "Banana",
+    "precio_uy": 80,
+    "precio_br": 4.5,
+    "cantidad": 1
   }
 ]
