@@ -1,146 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Comparador de Canasta Básica - UY vs BR</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <style>
-      th,
-      td {
-        text-align: center;
-        vertical-align: middle;
-      }
-      .resaltado-uy {
-        background-color: #d1e7dd !important;
-      }
-      .resaltado-br {
-        background-color: #cff4fc !important;
-      }
-    </style>
-  </head>
-  <body class="bg-light">
-    <div class="container py-4">
-      <h2 class="text-center mb-4">
-        📊 Comparador de Canasta Básica Uruguay 🇺🇾 vs Brasil 🇧🇷
-      </h2>
+<head>
+  <meta charset="UTF-8">
+  <title>Comparador Canasta Básica UY 🇺🇾 vs BR 🇧🇷</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    th, td { text-align: center; vertical-align: middle; }
+    .resaltado-uy { background-color: #d1e7dd !important; }
+    .resaltado-br { background-color: #cff4fc !important; }
+  </style>
+</head>
+<body class="bg-light">
+  <div class="container py-4">
+    <h2 class="text-center mb-4">🛍️ Comparador de Canasta Básica Uruguay 🇺🇾 vs Brasil 🇧🇷</h2>
 
-      <div class="mb-3 text-end">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <div>
         <label><strong>💱 1 BRL = </strong></label>
-        <input
-          type="number"
-          id="valorReal"
-          value="8.00"
-          step="0.01"
-          class="form-control d-inline w-auto"
-        />
+        <input type="number" id="valorReal" value="8.00" step="0.01" class="form-control d-inline w-auto">
         <span class="ms-1">UYU</span>
       </div>
-
-      <div class="table-responsive mb-4">
-        <table
-          class="table table-bordered align-middle table-hover"
-          id="tablaComparativa"
-        >
-          <thead class="table-dark">
-            <tr>
-              <th style="width: 30%">Producto</th>
-              <th>UYU 🇺🇾</th>
-              <th>BRL 🇧🇷</th>
-              <th>BRL en UYU</th>
-              <th>Más conveniente</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Pan común</td>
-              <td><input type="number" class="form-control" value="80" /></td>
-              <td><input type="number" class="form-control" value="6.50" /></td>
-              <td class="br-conv"></td>
-              <td class="mejor-opcion fw-bold"></td>
-            </tr>
-            <tr>
-              <td>Leche entera</td>
-              <td><input type="number" class="form-control" value="45" /></td>
-              <td><input type="number" class="form-control" value="4.20" /></td>
-              <td class="br-conv"></td>
-              <td class="mejor-opcion fw-bold"></td>
-            </tr>
-            <tr>
-              <td>Arroz</td>
-              <td><input type="number" class="form-control" value="70" /></td>
-              <td><input type="number" class="form-control" value="6.80" /></td>
-              <td class="br-conv"></td>
-              <td class="mejor-opcion fw-bold"></td>
-            </tr>
-            <tr>
-              <td>Fideos</td>
-              <td><input type="number" class="form-control" value="40" /></td>
-              <td><input type="number" class="form-control" value="3.90" /></td>
-              <td class="br-conv"></td>
-              <td class="mejor-opcion fw-bold"></td>
-            </tr>
-            <tr>
-              <td>Aceite</td>
-              <td><input type="number" class="form-control" value="150" /></td>
-              <td>
-                <input type="number" class="form-control" value="12.00" />
-              </td>
-              <td class="br-conv"></td>
-              <td class="mejor-opcion fw-bold"></td>
-            </tr>
-            <tr>
-              <td>Detergente</td>
-              <td><input type="number" class="form-control" value="60" /></td>
-              <td><input type="number" class="form-control" value="5.50" /></td>
-              <td class="br-conv"></td>
-              <td class="mejor-opcion fw-bold"></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="text-center">
-        <button class="btn btn-primary" onclick="comparar()">
-          📈 Comparar precios
-        </button>
-      </div>
+      <button class="btn btn-success" onclick="compartir()">📲 Compartir esta página</button>
     </div>
 
-    <script>
-      function comparar() {
-        const filas = document.querySelectorAll("#tablaComparativa tbody tr");
-        const valorReal = parseFloat(
-          document.getElementById("valorReal").value
-        );
+    <div class="table-responsive mb-4">
+      <table class="table table-bordered table-hover" id="tablaComparativa">
+        <thead class="table-dark">
+          <tr>
+            <th>✔️</th>
+            <th style="width: 30%;">Producto</th>
+            <th>UYU 🇺🇾</th>
+            <th>BRL 🇧🇷</th>
+            <th>BRL en UYU</th>
+            <th>Más conveniente</th>
+            <th>Cantidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="checkbox" class="form-check-input selector"></td>
+            <td>Pan común</td>
+            <td><input type="number" class="form-control" value="80"></td>
+            <td><input type="number" class="form-control" value="6.50"></td>
+            <td class="br-conv"></td>
+            <td class="mejor-opcion fw-bold"></td>
+            <td><input type="number" class="form-control cantidad" value="1"></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="form-check-input selector"></td>
+            <td>Leche entera</td>
+            <td><input type="number" class="form-control" value="45"></td>
+            <td><input type="number" class="form-control" value="4.20"></td>
+            <td class="br-conv"></td>
+            <td class="mejor-opcion fw-bold"></td>
+            <td><input type="number" class="form-control cantidad" value="1"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-        filas.forEach((fila) => {
-          const precioUYU =
-            parseFloat(fila.children[1].querySelector("input").value) || 0;
-          const precioBRL =
-            parseFloat(fila.children[2].querySelector("input").value) || 0;
-          const precioBRLuy = precioBRL * valorReal;
+    <div class="text-center mb-3">
+      <button class="btn btn-primary me-2" onclick="comparar()">📈 Comparar precios</button>
+      <button class="btn btn-warning" onclick="calcularSimulacion()">🧮 Simular compra</button>
+    </div>
 
-          const celdaBRconv = fila.querySelector(".br-conv");
-          const celdaMejor = fila.querySelector(".mejor-opcion");
+    <div class="row text-center">
+      <div class="col-md-6">
+        <h5>Total simulado en 🇺🇾 Uruguay</h5>
+        <div class="alert alert-success" id="totalUy">UYU 0</div>
+      </div>
+      <div class="col-md-6">
+        <h5>Total simulado en 🇧🇷 Brasil</h5>
+        <div class="alert alert-info" id="totalBr">BRL 0</div>
+      </div>
+    </div>
+  </div>
 
-          celdaBRconv.innerText = `UYU ${precioBRLuy.toFixed(2)}`;
-          fila.classList.remove("resaltado-uy", "resaltado-br");
+<script>
+function comparar() {
+  const filas = document.querySelectorAll('#tablaComparativa tbody tr');
+  const valorReal = parseFloat(document.getElementById('valorReal').value);
 
-          if (precioUYU < precioBRLuy) {
-            celdaMejor.innerText = "🇺🇾 Uruguay";
-            fila.classList.add("resaltado-uy");
-          } else if (precioBRLuy < precioUYU) {
-            celdaMejor.innerText = "🇧🇷 Brasil";
-            fila.classList.add("resaltado-br");
-          } else {
-            celdaMejor.innerText = "Iguales";
-          }
-        });
-      }
-    </script>
-  </body>
+  filas.forEach(fila => {
+    const precioUYU = parseFloat(fila.children[2].querySelector('input').value) || 0;
+    const precioBRL = parseFloat(fila.children[3].querySelector('input').value) || 0;
+    const precioBRLuy = precioBRL * valorReal;
+
+    const celdaBRconv = fila.querySelector('.br-conv');
+    const celdaMejor = fila.querySelector('.mejor-opcion');
+
+    celdaBRconv.innerText = `UYU ${precioBRLuy.toFixed(2)}`;
+    fila.classList.remove('resaltado-uy', 'resaltado-br');
+
+    if (precioUYU < precioBRLuy) {
+      celdaMejor.innerText = "🇺🇾 Uruguay";
+      fila.classList.add('resaltado-uy');
+    } else if (precioBRLuy < precioUYU) {
+      celdaMejor.innerText = "🇧🇷 Brasil";
+      fila.classList.add('resaltado-br');
+    } else {
+      celdaMejor.innerText = "Iguales";
+    }
+  });
+}
+
+function calcularSimulacion() {
+  const filas = document.querySelectorAll('#tablaComparativa tbody tr');
+  const valorReal = parseFloat(document.getElementById('valorReal').value);
+  let totalUY = 0;
+  let totalBR = 0;
+
+  filas.forEach(fila => {
+    const check = fila.querySelector('.selector').checked;
+    if (!check) return;
+
+    const precioUYU = parseFloat(fila.children[2].querySelector('input').value) || 0;
+    const precioBRL = parseFloat(fila.children[3].querySelector('input').value) || 0;
+    const cantidad = parseFloat(fila.querySelector('.cantidad').value) || 1;
+
+    totalUY += precioUYU * cantidad;
+    totalBR += precioBRL * cantidad;
+  });
+
+  document.getElementById('totalUy').innerText = `UYU ${totalUY.toFixed(2)}`;
+  document.getElementById('totalBr').innerText = `BRL ${totalBR.toFixed(2)}`;
+}
+
+function compartir() {
+  const url = window.location.href;
+  const texto = `Mirá esta comparación de precios entre 🇺🇾 y 🇧🇷: ${url}`;
+  if (navigator.share) {
+    navigator.share({ title: "Comparador de Canasta", text: texto, url: url });
+  } else {
+    alert("📋 Enlace copiado al portapapeles");
+    navigator.clipboard.writeText(url);
+  }
+}
+</script>
+</body>
 </html>
