@@ -1,0 +1,26 @@
+[
+  {
+    "producto": "Pan común",
+    "precio_uy": 80,
+    "precio_br": 6.5,
+    "cantidad": 1
+  },
+  {
+    "producto": "Leche entera",
+    "precio_uy": 45,
+    "precio_br": 4.2,
+    "cantidad": 1
+  },
+  {
+    "producto": "Arroz",
+    "precio_uy": 70,
+    "precio_br": 6.8,
+    "cantidad": 1
+  },
+  {
+    "producto": "Fideos",
+    "precio_uy": 40,
+    "precio_br": 3.9,
+    "cantidad": 1
+  }
+]
