@@ -8,52 +8,28 @@
 </head>
 <body class="bg-light">
 <div class="container py-4">
-
-  <div id="loginBox" class="text-center">
-    <h3>🔐 Acceso al Panel</h3>
-    <input type="password" id="clave" class="form-control w-25 mx-auto mb-3" placeholder="Clave">
-    <button class="btn btn-primary" onclick="verificar()">Ingresar</button>
-    <div id="errorClave" class="text-danger mt-2" style="display:none;">❌ Clave incorrecta</div>
+  <h3 class="text-center mb-4">🛠️ Panel de Administración</h3>
+  <div class="table-responsive">
+    <table class="table table-bordered" id="tabla">
+      <thead class="table-dark">
+        <tr>
+          <th>Producto</th>
+          <th>Precio 🇺🇾</th>
+          <th>Precio 🇧🇷</th>
+          <th>Cantidad</th>
+          <th>🗑️</th>
+        </tr>
+      </thead>
+      <tbody id="editorBody"></tbody>
+    </table>
   </div>
-
-  <div id="editorBox" style="display:none;">
-    <h3 class="text-center mb-4">🛠️ Panel de Administración</h3>
-    <div class="table-responsive">
-      <table class="table table-bordered" id="tabla">
-        <thead class="table-dark">
-          <tr>
-            <th>Producto</th>
-            <th>Precio 🇺🇾</th>
-            <th>Precio 🇧🇷</th>
-            <th>Cantidad</th>
-            <th>🗑️</th>
-          </tr>
-        </thead>
-        <tbody id="editorBody"></tbody>
-      </table>
-    </div>
-    <div class="text-center">
-      <button class="btn btn-secondary" onclick="agregarFila()">➕ Agregar Producto</button>
-      <button class="btn btn-success" onclick="guardar()">💾 Guardar Cambios</button>
-    </div>
+  <div class="text-center mb-3">
+    <button class="btn btn-secondary" onclick="agregarFila()">➕ Agregar Producto</button>
+    <button class="btn btn-success" onclick="guardar()">💾 Guardar Cambios</button>
   </div>
-
 </div>
 
 <script>
-const CLAVE_CORRECTA = "admin123";
-
-function verificar() {
-  const clave = document.getElementById('clave').value;
-  if (clave === CLAVE_CORRECTA) {
-    document.getElementById('loginBox').style.display = 'none';
-    document.getElementById('editorBox').style.display = 'block';
-    cargarDatos();
-  } else {
-    document.getElementById('errorClave').style.display = 'block';
-  }
-}
-
 function cargarDatos() {
   fetch('/canasta')
     .then(res => res.json())
@@ -104,6 +80,8 @@ function guardar() {
     alert("✅ Guardado correctamente");
   });
 }
+
+cargarDatos();
 </script>
 </body>
 </html>

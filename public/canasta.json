@@ -1,0 +1,488 @@
+[
+  {
+    "producto": "Aceite de girasol Río de la Plata Envase 900 cc",
+    "precio_uy": 115.29,
+    "precio_br": 13.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Agua de mesa con gas Matutina Envase 2 lt.",
+    "precio_uy": 66.83,
+    "precio_br": 2.3,
+    "cantidad": 1
+  },
+  {
+    "producto": "Agua mineral sin gas(bidón) Nativa 6lts",
+    "precio_uy": 135,
+    "precio_br": 7.39,
+    "cantidad": 1
+  },
+  {
+    "producto": "Arroz blanco Aruba tipo Patna Bolsa 1 kg.",
+    "precio_uy": 75.5,
+    "precio_br": 16.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Azúcar blanco Azucarlito Paquete 1 kg.",
+    "precio_uy": 55.5,
+    "precio_br": 9.79,
+    "cantidad": 1
+  },
+  {
+    "producto": "Café envasado (no instantáneo) Chaná Paquete 250 grs.",
+    "precio_uy": 285,
+    "precio_br": 23.98,
+    "cantidad": 1
+  },
+  {
+    "producto": "Carne picada vacuna Con Hasta 20% de grasa 1 kg.",
+    "precio_uy": 327,
+    "precio_br": 31,
+    "cantidad": 1
+  },
+  {
+    "producto": "Cerveza Patricia Botella 960 ml.",
+    "precio_uy": 179,
+    "precio_br": 18.5,
+    "cantidad": 1
+  },
+  {
+    "producto": "Cerveza Pilsen Botella 960 ml.",
+    "precio_uy": 129,
+    "precio_br": 18.5,
+    "cantidad": 1
+  },
+  {
+    "producto": "Cerveza Zillertal Botella 1 lt.",
+    "precio_uy": 200,
+    "precio_br": 18.5,
+    "cantidad": 1
+  },
+  {
+    "producto": "Chorizos mezcla sueltos - Cattivelli  - Extra 1 kg.",
+    "precio_uy": 627.5,
+    "precio_br": 27,
+    "cantidad": 1
+  },
+  {
+    "producto": "Cocoa Copacabana Envase 500 grs.",
+    "precio_uy": 249,
+    "precio_br": 9.45,
+    "cantidad": 1
+  },
+  {
+    "producto": "Cocoa Vascolet Envase 500 grs.",
+    "precio_uy": 220,
+    "precio_br": 9.45,
+    "cantidad": 1
+  },
+  {
+    "producto": "Dulce de leche Conaprole Envase 1 kg.",
+    "precio_uy": 247,
+    "precio_br": 30,
+    "cantidad": 1
+  },
+  {
+    "producto": "Dulce de membrillo Los Nietitos Envase 400 grs.",
+    "precio_uy": 80,
+    "precio_br": 7.9,
+    "cantidad": 1
+  },
+  {
+    "producto": "Fideos secos al huevo Adria Paquete 500 grs.",
+    "precio_uy": 84.33,
+    "precio_br": 5.19,
+    "cantidad": 1
+  },
+  {
+    "producto": "Frankfurters cortos Centenario Paquete 8 us.",
+    "precio_uy": 232.33,
+    "precio_br": 13.9,
+    "cantidad": 1
+  },
+  {
+    "producto": "Galletitas al agua Famosa Paquete 140 grs.",
+    "precio_uy": 160,
+    "precio_br": 6.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Gaseosa tipo cola (env. no ret.) Coca Cola Botella 1,5 lt.",
+    "precio_uy": 158.75,
+    "precio_br": 8.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Hamburguesas carne vacun Paty Paquete 2 unidades",
+    "precio_uy": 98.5,
+    "precio_br": 14.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Harina de maíz Presto Pronta Arcor Paquete 500 grs.",
+    "precio_uy": 54,
+    "precio_br": 5.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Harina trigo común 000 Cañuelas Paquete 1 kg.",
+    "precio_uy": 63,
+    "precio_br": 3.49,
+    "cantidad": 1
+  },
+  {
+    "producto": "Helado familiar Conaprole Envase 1lt.",
+    "precio_uy": 295,
+    "precio_br": 23.98,
+    "cantidad": 1
+  },
+  {
+    "producto": "Huevos colorados Super huevo Envase 1/2 docena",
+    "precio_uy": 248,
+    "precio_br": 13.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Jamón cocido no artesanal Cattivelli 1 kg.",
+    "precio_uy": 700,
+    "precio_br": 23.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Leonesa Schneck 1 kg.",
+    "precio_uy": 700,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Manteca Conaprole sin sal Envase 200 grs.",
+    "precio_uy": 103,
+    "precio_br": 13.29,
+    "cantidad": 1
+  },
+  {
+    "producto": "Margarina Adorita Envase 250 grs.",
+    "precio_uy": 67.67,
+    "precio_br": 4.15,
+    "cantidad": 1
+  },
+  {
+    "producto": "Mayonesa común Hellmans Envase 500 grs.",
+    "precio_uy": 113.5,
+    "precio_br": 5,
+    "cantidad": 1
+  },
+  {
+    "producto": "Mermelada de durazno Los Nietitos Envase 500 grs.",
+    "precio_uy": 126,
+    "precio_br": 32.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Paleta vacuna Con Hueso - Sin Marca 1 kg.",
+    "precio_uy": 319,
+    "precio_br": 28,
+    "cantidad": 1
+  },
+  {
+    "producto": "Pan de molde lacteado Bimbo Paquete 330 grs.",
+    "precio_uy": 115.67,
+    "precio_br": 6.25,
+    "cantidad": 1
+  },
+  {
+    "producto": "Peceto vacuno Sin Marca 1 kg.",
+    "precio_uy": 399,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Pescado fresco bifes de merluz - sin marca 1 kg.",
+    "precio_uy": 399,
+    "precio_br": 70,
+    "cantidad": 1
+  },
+  {
+    "producto": "Pollo entero fresco con menudos Avícola del Oeste 1 kg.",
+    "precio_uy": 199,
+    "precio_br": 11.6,
+    "cantidad": 1
+  },
+  {
+    "producto": "Pulpa de tomate Conaprole Envase 1 lt.",
+    "precio_uy": 99.33,
+    "precio_br": 2.64,
+    "cantidad": 1
+  },
+  {
+    "producto": "Queso rallado Artesano Paquete 80 grs.",
+    "precio_uy": 126.67,
+    "precio_br": 11,
+    "cantidad": 1
+  },
+  {
+    "producto": "Sal fina yodada fluorada Sek Paquete 500 grs.",
+    "precio_uy": 63,
+    "precio_br": 1.25,
+    "cantidad": 1
+  },
+  {
+    "producto": "Té negro en saquitos Hornimans Caja 10 us.",
+    "precio_uy": 57.67,
+    "precio_br": 5.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Vino tinto común tetrabrick Faisán Envase 1 lt.",
+    "precio_uy": 149,
+    "precio_br": 11.9,
+    "cantidad": 1
+  },
+  {
+    "producto": "Yerba mate común Baldo Paquete1 kg.",
+    "precio_uy": 194,
+    "precio_br": 10.9,
+    "cantidad": 1
+  },
+  {
+    "producto": "Yogur Conaprole BIO TOP Sachet1,200 lt.",
+    "precio_uy": 103,
+    "precio_br": 14.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Afeitadora Gillette Mach3 Dispenser X2, 2us.",
+    "precio_uy": 374.5,
+    "precio_br": 27.9,
+    "cantidad": 1
+  },
+  {
+    "producto": "Alcohol en gel Bioset 250 ml.",
+    "precio_uy": 129,
+    "precio_br": 8.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Algodón Zig Zag Cisne 100 gr.",
+    "precio_uy": 102,
+    "precio_br": 14,
+    "cantidad": 1
+  },
+  {
+    "producto": "Bebe & Co Colonia + Talco, 120 ml.",
+    "precio_uy": 657,
+    "precio_br": 17.19,
+    "cantidad": 1
+  },
+  {
+    "producto": "Champú Dove, 400 ml.",
+    "precio_uy": 458,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Champú Fructis Envase 350 ml.",
+    "precio_uy": 355,
+    "precio_br": 17.09,
+    "cantidad": 1
+  },
+  {
+    "producto": "Champú Pantene, 400 ml.",
+    "precio_uy": 475,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Champú Sedal Envase 350 ml.",
+    "precio_uy": 211,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Crema Facial Asepxia Emergencia Color Piel, 28 grs.",
+    "precio_uy": 370,
+    "precio_br": 31,
+    "cantidad": 1
+  },
+  {
+    "producto": "Curitas Ready Plast 8  us.",
+    "precio_uy": 64,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Desodorante en aerosol Axe Musk Envase 113 grs.",
+    "precio_uy": 204.93,
+    "precio_br": 21.98,
+    "cantidad": 1
+  },
+  {
+    "producto": "Gasa estéril 40 us.",
+    "precio_uy": 83,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Jabón de tocador Ann Bow, 140 grs.",
+    "precio_uy": 76.5,
+    "precio_br": 3.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Papel higiénico hoja simple Elite 4 rollos de 30 mts.",
+    "precio_uy": 135.5,
+    "precio_br": 6.79,
+    "cantidad": 1
+  },
+  {
+    "producto": "Pasta dental Colgate Herbal Blanqueador Unidad 90 grs.",
+    "precio_uy": 59.45,
+    "precio_br": 27.9,
+    "cantidad": 1
+  },
+  {
+    "producto": "Pañales Adultos Readysec Grande, 24 us.",
+    "precio_uy": 726,
+    "precio_br": 110,
+    "cantidad": 1
+  },
+  {
+    "producto": "Pañales Babysec Premium Extra Extra Grande, 48 us.",
+    "precio_uy": 1039,
+    "precio_br": 53.96,
+    "cantidad": 1
+  },
+  {
+    "producto": "Pañales Huggies Primeros 100 Dias Pequeño, 40 us.",
+    "precio_uy": 673,
+    "precio_br": 36.89,
+    "cantidad": 1
+  },
+  {
+    "producto": "Protector solar SPF 20  Dermaglós 250 ml.",
+    "precio_uy": 1514.4,
+    "precio_br": 119.08,
+    "cantidad": 1
+  },
+  {
+    "producto": "Repelente aerosol Júpiter,  165 cm3",
+    "precio_uy": 385,
+    "precio_br": 26.49,
+    "cantidad": 1
+  },
+  {
+    "producto": "Talco J&J Regular, 200 grs.",
+    "precio_uy": 486,
+    "precio_br": 46,
+    "cantidad": 1
+  },
+  {
+    "producto": "Tinta Excellence Tinta N.9, 1 unidad",
+    "precio_uy": 779,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Toallitas Femenias Siempre Libre Nocturna Max Con Alas, 8 us.",
+    "precio_uy": 168.5,
+    "precio_br": 7.69,
+    "cantidad": 1
+  },
+  {
+    "producto": "Banana Ecuador,  1 kg.",
+    "precio_uy": 125,
+    "precio_br": 3.2,
+    "cantidad": 1
+  },
+  {
+    "producto": "Lechuga Crespa,  1 unidad",
+    "precio_uy": 84,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Lechuga Mantecosa,  1 unidad",
+    "precio_uy": 76,
+    "precio_br": 4.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Manzana Granny Smith,  1 kg.",
+    "precio_uy": 169,
+    "precio_br": 19.9,
+    "cantidad": 1
+  },
+  {
+    "producto": "Manzana Red Deliciosa,  1 kg.",
+    "precio_uy": 129,
+    "precio_br": 9.98,
+    "cantidad": 1
+  },
+  {
+    "producto": "Papa Blanca, 1 kg.",
+    "precio_uy": 109,
+    "precio_br": 2.99,
+    "cantidad": 1
+  },
+  {
+    "producto": "Papa Rosada, 1 kg.",
+    "precio_uy": 109,
+    "precio_br": 2.15,
+    "cantidad": 1
+  },
+  {
+    "producto": "Tomate Americano,  1 kg.",
+    "precio_uy": 119,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Tomate Perita,  1 kg.",
+    "precio_uy": 129,
+    "precio_br": 7.46,
+    "cantidad": 1
+  },
+  {
+    "producto": "Zapallo Criollo,  1 kg.",
+    "precio_uy": 73,
+    "precio_br": 1.88,
+    "cantidad": 1
+  },
+  {
+    "producto": "Detergente para vajilla Deterjane limón Envase 1.250 lt.",
+    "precio_uy": 119,
+    "precio_br": 1.78,
+    "cantidad": 1
+  },
+  {
+    "producto": "Hipoclorito de sodio Agua Jane Botella 1 lt.",
+    "precio_uy": 77.15,
+    "precio_br": 6,
+    "cantidad": 1
+  },
+  {
+    "producto": "Jabón en polvo máquina Drive Paquete 800 grs.",
+    "precio_uy": 162.67,
+    "precio_br": 4.55,
+    "cantidad": 1
+  },
+  {
+    "producto": "Jabón para ropa en barra Bull Dog Unidad 300 grs.",
+    "precio_uy": 64,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Arveja en lata",
+    "precio_uy": 30,
+    "precio_br": 0,
+    "cantidad": 1
+  },
+  {
+    "producto": "Milho en lata",
+    "precio_uy": 0,
+    "precio_br": 2.85,
+    "cantidad": 1
+  }
+]
